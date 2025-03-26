@@ -1,0 +1,30 @@
+ /*
+        CSS syntax
+        selector{
+          property:value
+        }
+          selection methods
+          1- Element Tag name
+          2- Element ID value
+          3- Element class value
+          */
+
+          *{
+            font-family: comic sans ms;
+          }
+          body{
+            background-image: url(../images/6.jpd.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+ h2 {
+   color: green;
+ }
+
+ #p1 {
+   color: brown;
+ }
+
+ .class1 {
+   color: black;
+ }

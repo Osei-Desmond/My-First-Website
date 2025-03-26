@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h2{
+    color: darkblue;
+}
+.named{
+    color: red;
+}
+.hex{
+    color: #ff5733;
+} 
+.rgb{
+    color: rgb(0, 128, 0);
+}
+.rgba{
+    color: rgba(0, 128, 0, 0.5);
+}
+.hsl{
+    color: hsl(200, 100%, 50%);
+}
+.hsla{
+    color: hsla(200, 100%, 50%, 0.5%);
+}
+.current{
+    color: purple;
+    border:2px solid currentColor;
+    display: inline-block;
+    padding: 5px;
+}
+.transparent{
+    background-color: transparent;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+.gradient{
+    background-color: linear-gradient(to right, red, blue);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.class2{
+    color: white;
+}
